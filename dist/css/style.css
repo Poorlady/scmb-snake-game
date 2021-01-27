@@ -59,13 +59,13 @@
 }
 
 .has-fadeIn {
-  -webkit-animation: fadeIn 200ms ease-out forwards;
-          animation: fadeIn 200ms ease-out forwards;
+  -webkit-animation: fadeIn 250ms ease-out forwards;
+          animation: fadeIn 250ms ease-out forwards;
 }
 
 .has-fadeOut {
-  -webkit-animation: fadeOut 200ms ease-in forwards;
-          animation: fadeOut 200ms ease-in forwards;
+  -webkit-animation: fadeOut 250ms ease-in forwards;
+          animation: fadeOut 250ms ease-in forwards;
 }
 
 * {
