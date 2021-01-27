@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./dist/css/style.css">
+    <title>Snake game</title>
+</head>
+<body>
+    <div class="container container__pd_all">
+        <h1>Welcome to the snake game</h1>
+        <button id="startBtn">Start</button>
+        <h2 id="score"></h2>
+        
+        <div class="squares flex flex__fw_w"></div>
+    </div>
+
+    <div class="overlay has-fadeOut">
+        <div class="card">
+            <h2>Game Over!</h2>
+            <p id="final-score">Your Score</p>
+            <button id="plyAgainBtn">Play Again!</button>
+        </div>
+    </div>
+
+    <script src="./js/app.js"></script>
+</body>
+</html>

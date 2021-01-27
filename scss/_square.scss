@@ -1,0 +1,24 @@
+.squares{
+    margin: 0 auto;
+    border: none;
+    width: 25.02rem;
+    height: 25.02rem;
+    background-color: white;
+    box-shadow: 2px 3px 14px #111;
+    outline: none;
+
+    .square{
+        width: 1.25rem;
+        height: 1.25rem;
+        outline: none;
+        // border: 1px solid #111;
+    }
+
+    .snake{
+        background-color: #47CF73;
+    }
+
+    .apple{
+        background-color: crimson;
+    }
+}
